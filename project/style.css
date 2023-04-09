@@ -1,0 +1,727 @@
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #3C6E7E;
+    margin: 0px;
+    padding: 0px;
+
+    cursor: url(https://ani.cursors-4u.net/cursors/cur-11/cur1049.cur), auto !important;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #353535;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+}
+
+nav {
+    background-color: #353535;
+    font-family: Arial;
+    text-align: center;
+    font-size: 30px;
+
+
+}
+
+nav a {
+    padding: 14px 16px;
+    display: inline-block;
+    color: #D9D9D9;
+}
+
+nav a:hover {
+    background-color: #D9D9D9;
+    color: #284B63;
+}
+
+footer {
+    background-color: #353535;
+    color: #444444;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.profile {
+    position: absolute;
+    height: 60vh;
+    background-color: #F5EDD7;
+    border-radius: 20px;
+    display: block;
+    z-index: -99;
+}
+
+.profile_h1 {
+    position: relative;
+    top: 0.5px;
+    color: #353535;
+    text-align: center;
+    mix-blend-mode: initial;
+    font-size: 3.0em;
+    z-index: 99;
+}
+
+.social_ig {
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: relative;
+    top: -393px;
+    margin-right: 12.5px;
+    float: right;
+    z-index: 2;
+    transition: 0.5s
+}
+
+.social_fb {
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: relative;
+    top: -390px;
+    margin-right: 12.5px;
+    float: right;
+    z-index: 2;
+    transition: 0.5s
+}
+
+.social_mail {
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: relative;
+    top: -390px;
+    margin-right: 12.5px;
+    float: right;
+    z-index: 2;
+    transition: 0.5s
+}
+
+.card {
+    background-color: white;
+    padding: 15px;
+    margin: 15px 10px;
+    border-radius: 10px;
+
+    /*背景圖*/
+    /*background-image: url(image/card_img.jpg);*/
+    background-size: cover;
+}
+
+.card_school {
+    background-color: white;
+    padding: 50px;
+    margin: 15px 10px;
+    border-radius: 10px;
+
+    /*背景圖*/
+    /*background-image: url(image/card_img.jpg);*/
+    background-size: cover;
+}
+
+
+.card_skill {
+    background-color: white;
+    padding: 150px;
+    margin: 15px 10px;
+    border-radius: 10px;
+
+    /*背景圖*/
+    /*background-image: url(image/card_img.jpg);*/
+    background-size: cover;
+}
+
+.card_activity {
+    background-color: white;
+    padding: 50px;
+    margin: 15px 10px;
+    border-radius: 10px;
+
+    background-size: cover;
+}
+
+.headshot_intro {
+    position: relative;
+    left: 800px;
+    z-index: 100;
+    top: 90px;
+    letter-spacing: 3px;
+    line-height: 50px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.headshott {
+    border-radius: 100%;
+    position: relative;
+    left: 23%;
+    top: -110px;
+    width: 180px;
+    height: 180px;
+    z-index: 99;
+    background-image: url("image/self.jpg");
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    border-radius: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.headshott:hover .overlay {
+    opacity: 1;
+    transition: opacity 0.5s;
+    background-image: url("image/self2.jpg");
+    background-size: cover;
+}
+
+.headshot {
+    border-radius: 100%;
+    position: relative;
+    left: 23%;
+    top: -110px;
+    width: 180px;
+    height: 180px;
+    z-index: 99;
+}
+
+.headshot2 {
+    border-radius: 100%;
+    position: relative;
+    left: 23%;
+    top: -110px;
+    width: 180px;
+    height: 180px;
+    z-index: 99;
+}
+
+.mar {
+    position: relative;
+    top: -65px;
+    font-size: 25px;
+    font-family: Arial;
+}
+
+.school_ele {
+    border-radius: 50%;
+    position: relative;
+    left: 23%;
+    top: 580px;
+    width: 200px;
+    height: 200px;
+    z-index: 99;
+    transition: 0.5s;
+}
+
+
+
+.school_ele:hover {
+    transform: scale(1.1);
+}
+
+
+.school_jun {
+    border-radius: 50%;
+    position: relative;
+    left: 23%;
+    top: 100px;
+    width: 200px;
+    height: 200px;
+    z-index: 99;
+    transition: 0.5s;
+}
+
+.school_jun:hover {
+    transform: scale(1.1);
+}
+
+.school_cy {
+    border-radius: 50%;
+    position: relative;
+    left: 23%;
+    top: -380px;
+    width: 200px;
+    height: 200px;
+    z-index: 99;
+    transition: 0.5s;
+}
+
+.school_cy:hover {
+    transform: scale(1.1);
+}
+
+.usechrome {
+    font-size: 10px;
+    color: #fff;
+    font-family: helvetica, arial;
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}
+
+.school_c {
+    position: relative;
+    left: 60%;
+    top: -530px;
+    font-size: 25px;
+
+    text-shadow: 0px 3px 0px #b2a98f,
+
+        0px 14px 10px rgba(0, 0, 0, 0.15),
+
+        0px 24px 2px rgba(0, 0, 0, 0.1),
+
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+.school_j {
+    position: relative;
+    left: 60%;
+    top: -300px;
+    font-size: 25px;
+
+    text-shadow: 0px 3px 0px #b2a98f,
+
+        0px 14px 10px rgba(0, 0, 0, 0.15),
+
+        0px 24px 2px rgba(0, 0, 0, 0.1),
+
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+.school_e {
+    position: relative;
+    left: 60%;
+    top: -100px;
+    font-size: 25px;
+
+    text-shadow: 0px 3px 0px #b2a98f,
+
+        0px 14px 10px rgba(0, 0, 0, 0.15),
+
+        0px 24px 2px rgba(0, 0, 0, 0.1),
+
+        0px 34px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.social {
+    width: 70px;
+    height: 70px;
+    float: left;
+    position: relative;
+    top: -390px;
+    right: 37.5px;
+    margin-top: auto;
+    margin-right: 12.5px;
+    float: right;
+    z-index: 2;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.card_activity {
+    background-color: white;
+    padding: 50px;
+    margin: 15px 10px;
+    border-radius: 10px;
+
+    /*背景圖*/
+    /*background-image: url(image/card_img.jpg);*/
+    background-size: cover;
+}
+
+.activityfont {
+    font-size: 30px;
+    position: relative;
+    top: -30px;
+
+}
+
+.activityphoto {
+    border-radius: 10%;
+    width: 315px;
+    height: 225px;
+    z-index: 99;
+}
+
+.activity1_1 {
+    position: relative;
+    z-index: 3;
+    transition: 0.5s;
+    top: 0px;
+
+}
+
+.activity1_1:hover {
+    transform: scale(1.2);
+}
+
+.activity2_1 {
+    position: relative;
+    z-index: 3;
+    transition: 0.5s;
+    top: 210px;
+
+}
+
+.activity2_1:hover {
+    transform: scale(1.2);
+}
+
+.activity3_1 {
+    position: relative;
+    z-index: 3;
+    transition: 0.5s;
+    top: 410px;
+
+}
+
+.activity3_1:hover {
+    transform: scale(1.2);
+}
+
+.activity4_1 {
+    position: relative;
+    z-index: 3;
+    transition: 0.5s;
+    top: 560px;
+
+}
+
+.activity4_1:hover {
+    transform: scale(1.2);
+}
+
+.activity1_2 {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+    left: -200px;
+    top: -30px;
+
+}
+
+.activity1_2:hover {
+    z-index: 3;
+    transform: scale(1.2);
+}
+
+.activity2_2 {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+    left: -200px;
+    top: 180px;
+
+}
+
+.activity2_2:hover {
+    z-index: 3;
+    transform: scale(1.2);
+}
+
+.activity3_2 {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+    left: -200px;
+    top: 380px;
+
+}
+
+.activity3_2:hover {
+    z-index: 3;
+    transform: scale(1.2);
+}
+
+.activity4_2 {
+    position: relative;
+    z-index: 2;
+    transition: 0.5s;
+    left: -200px;
+    top: 530px;
+
+}
+
+.activity4_2:hover {
+    z-index: 3;
+    transform: scale(1.2);
+}
+
+.activitytable {
+    margin-bottom: -80px;
+}
+
+.contect_activity {
+    padding: 5%;
+    width: 1200px;
+    height: 1500px;
+}
+
+.activity1font {
+    position: relative;
+    font-size: 25px;
+    top: -40px;
+}
+
+.activity1fonttt {
+    position: relative;
+    top: -30px;
+    font-family: Arial;
+}
+
+.activity2font {
+    position: relative;
+    font-size: 25px;
+    top: 150px;
+}
+
+.activity2fonttt {
+    position: relative;
+    top: 170px;
+    font-family: Arial;
+}
+
+.activity3font {
+    position: relative;
+    font-size: 25px;
+    top: 380px;
+}
+
+.activity3fonttt {
+    position: relative;
+    top: 400px;
+    font-family: Arial;
+}
+
+.activity4font {
+    position: relative;
+    font-size: 25px;
+    top: 510px;
+}
+
+.activity4fonttt {
+    position: relative;
+    top: 530px;
+    font-family: Arial;
+}
+
+.clearfix {
+    clear: both;
+
+}
+
+.skill {
+    padding: 3%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.skillbox {
+    position: relative;
+    left: 130px;
+    font-family: Arial;
+    width: 400px;
+    color: white;
+    font-size: 20px;
+    top: 0px;
+    text-align: left;
+}
+
+.progress {
+    position: relative;
+    background-color: #353535;
+    border-radius: 20px;
+    padding: 4px;
+
+}
+
+.progressbar {
+    width: 0;
+    height: inherit;
+    border-radius: 6px;
+    background: repeating-linear-gradient(-45deg, #D9D9D9 25%, #D9D9D9 0, #284B63 50%, #284B63 0, #284B63 75%, #284B63 0);
+    background-size: 10px 10px;
+}
+
+.cc {
+    animation: sk1 3s;
+    animation-iteration-count: infinite;
+    width: 30%;
+}
+
+@keyframes sk1 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+.c {
+    color: #353535;
+}
+
+.ja {
+    animation: sk2 3s;
+    animation-iteration-count: infinite;
+    width: 60%;
+}
+
+@keyframes sk2 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.java {
+    color: #353535;
+}
+
+.sql {
+    animation: sk3 3s;
+    animation-iteration-count: infinite;
+    width: 50%;
+}
+
+@keyframes sk3 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+.mysql {
+    color: #353535;
+}
+
+.ht {
+    animation: sk4 3s;
+    animation-iteration-count: infinite;
+    width: 80%;
+}
+
+@keyframes sk4 {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.html {
+    color: #353535;
+}
+
+.tabletennis {
+    display: inline-flex;
+    position: relative;
+    left: 530px;
+    top: -418px;
+}
+
+
+.game {
+    display: inline-flex;
+    position: relative;
+    left: 530px;
+    top: -418px;
+}
+
+.fill_table {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: #284B63;
+    transform: rotate(132deg);
+}
+
+
+.fill_game {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    background-color: #284B63;
+    transform: rotate(108deg);
+}
+
+
+.m1 {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+}
+
+.m1.full {
+    animation: fill ease-in-out 8s;
+    transform: rotate(132deg);
+}
+
+.m1.fulll {
+    animation: fill ease-in-out 8s;
+    transform: rotate(108deg);
+}
+
+.run {
+    width: 200px;
+    height: 200px;
+    background: #a3a0a0;
+    border-radius: 50%;
+    margin: 30px;
+}
+
+.incircle {
+    font-family: Arial;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    line-height: 170px;
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    position: absolute;
+    font-weight: bold;
+    font-size: 22pt;
+    background-color: black;
+}
